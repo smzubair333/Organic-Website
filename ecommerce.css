@@ -1,0 +1,85 @@
+navbar-brand {
+    width: 10%;
+}
+
+.navbar {
+    background-color: #c6138d;
+}
+
+.nav-link {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.nav-link:hover {
+    border: 1px solid green;
+    color: green;
+}
+
+.bgimg {
+    background-image: url("https://img.freepik.com/free-photo/supermarket-banner-with-food_23-2149500985.jpg?ga=GA1.1.1752604346.1723796308&semt=ais_hybrid");
+    width:100vw;
+    height:70vh;
+    background-position:center; 
+    background-size:cover;
+}
+
+.hhead h1 {
+    font-size: 50px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+.hhead .btn {
+    font-size: 23px;
+    font-weight: 700;
+}
+/* about */
+.two{
+    border: gold solid 2px;
+}
+.two h5{
+    color:#ffc107;
+}
+.two h2{
+    color: green;
+}
+.two p{
+    color:#f50057;
+}
+.carousel-item img{
+    width:100%;
+    aspect-ratio:3/2;
+}
+/* contact */
+#forms{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+}
+#forms input{
+    margin-bottom: 2%;
+    border: 0.4px solid grey;
+    padding:1%
+}
+textarea{
+    margin-bottom: 3%;
+}
+/* footer */
+.footer{
+    background-color: #ea67c1;
+}
+.hfoot{
+    color: white;
+    text-decoration: 3px underline gold;
+    margin-bottom: 2%;
+}
+.media i{
+    color: white;
+    font-size: 30px;
+    padding: 1%;
+}
+.media i:hover{
+    color: skyblue;
+}
